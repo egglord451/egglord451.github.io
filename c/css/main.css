@@ -1,0 +1,45 @@
+*{margin: 0;
+  padding: 0;
+box-sizing: border-box;}
+
+@font-face{font-family:Lobster;
+          src: url(../fonts/Lobster/Lobster-Regular.ttf);}
+
+body{background-color: #a4cebf;
+     text-align: center;
+    font-size: 23px; }
+
+main{background-color: #fff;
+     width: 70%;
+     margin: 0 auto;
+     box-shadow: 0 0 10px 0px #000}
+
+h1{font-family:Lobster;}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;}
+
+.a{ margin:20px;
+    height: calc((35vw - 40px) /16*9);
+    background-color: #c0eaed;
+    width:calc(50% - 40px);
+   background-size: cover;
+transition:0.5s;}
+.a:hover{ transform: scale(1.05);}
+
+.a1{background-image: url(../img/img1.jpg);}
+.a2{background-image: url(../img/img2.jpg);}
+.a3{background-image: url(../img/img3.jpg);}
+.a4{background-image: url(../img/img4.jpg);}
+.a5{background-image: url(../img/img5.jpg);}
+.a6{background-image: url(../img/img6.jpg);}
+.a7{background-image: url(../img/img7.jpg);}
+.a8{background-image: url(../img/img8.jpg);}
+.a9{background-image: url(../img/img9.jpg);}
+.a10{background-image: url(../img/img10.jpg);}
+.a11{background-image: url(../img/img11.jpg);}
+.a12{background-image: url(../img/img12.jpg);}
+.a13{background-image: url(../img/img13.jpg);}
+.a14{background-image: url(../img/img14.jpg);}
